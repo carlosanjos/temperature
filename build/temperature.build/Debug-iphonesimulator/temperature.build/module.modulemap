@@ -1,0 +1,11 @@
+framework module temperature {
+  umbrella header "temperature.h"
+
+  export *
+  module * { export * }
+}
+
+module temperature.Swift {
+    header "temperature-Swift.h"
+    requires objc
+}

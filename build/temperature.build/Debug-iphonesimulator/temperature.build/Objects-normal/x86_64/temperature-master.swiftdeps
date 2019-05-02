@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "c1d1fa31bcbf54684d42e3dc2c492d80"
+build_time: [1556718235, 454824000]
+inputs:
+  "/Users/Carlos/Desktop/temperature/temperature/TemperatureTools.swift": [1556718127, 866334117]

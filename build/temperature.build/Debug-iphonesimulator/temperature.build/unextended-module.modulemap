@@ -1,0 +1,10 @@
+framework module temperature {
+  umbrella header "temperature.h"
+
+  export *
+  module * { export * }
+}
+
+module temperature.__Swift {
+    exclude header "temperature-Swift.h"
+}

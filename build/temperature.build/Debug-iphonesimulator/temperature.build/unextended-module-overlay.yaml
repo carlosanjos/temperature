@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Carlos/Library/Developer/Xcode/DerivedData/temperature-dukniubybxclmvgkdzclnoxryylb/Build/Products/Debug-iphonesimulator/temperature.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Carlos/Desktop/temperature/build/temperature.build/Debug-iphonesimulator/temperature.build/unextended-module.modulemap",
+    }]
+  }]
+}
