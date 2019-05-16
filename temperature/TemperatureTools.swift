@@ -8,13 +8,17 @@
 
 import Foundation
 
-@objc open class TemperatureTools: NSObject {
+@objc(TemperatureTools)
+open class TemperatureTools: NSObject {
     
-    @objc public static func convert (temperature: Double, unit: String) -> Double {
+    @objc
+    public static func convert (temperature: Double, unit: String) -> String {
         if (unit == "C") {
-            return (temperature - 32) / 1.8;
+            let convertedTemperature = (temperature - 32) / 1.8
+            return "\(convertedTemperature) °C"
         }
         
-        return (temperature * 1.8) + 32;
+        let convertedTemperature = (temperature * 1.8) + 32
+        return "\(convertedTemperature) °F"
     }
 }
